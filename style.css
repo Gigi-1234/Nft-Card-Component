@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'outfit';
+    min-height: 100vh;
+}
+.card {
+    margin: auto;
+    background-size: 100%;
+    box-sizing: border-box;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background-color: #2d4b76; 
+    box-sizing: border-box;
+    padding: 24px;
+    margin: auto;   
+}
+.mtavari {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+.satauri {
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 27.72px;
+   color: #FFFFFF;
+   margin-top: 24px;
+}
+.pirveli {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    width: 302px;
+    height: 52px;
+    color: #8BACD9;
+    margin-top: 16px;
+}
+
+.price img {
+   width: 11px;
+   height: 18px;
+}
+.days img {
+    width: 16px;
+    height: 16px;
+}
+.components {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 20px;
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+}
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    color:#8BACD9;
+}
+.line {
+    height: 1px;
+    border-top: 1px solid #6c83a2;
+    margin-top: 24px;
+    width: 302px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 8px;
+}
+.profile img {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.profile p {
+    font-weight: 400;
+    size: 16px;
+    color: #8BACD9;
+}
+.satauri:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+span:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tvali {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 136px;
+    left: 129px;
+    opacity: 0;
+}
+
+.container:hover .overlay {
+    background-color: #00FFF8;
+    opacity: 50.3%;
+}
+.container {
+    position: relative;
+}
+.container:hover .tvali {
+    opacity: 1;
+}
